@@ -7,9 +7,12 @@ const corsServer = corsAnywhere.createServer({
       'http://localhost:3000',
       'http://localhost:5000',
       'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com'
+      'https://portfolio-ravenous.firebaseapp.com', 
+      'http://vtiutb.univ-artois.fr', 
+      'https://edts.test',
+      'https://rt-bethune.github.io'
     ],
-    requireHeader: ['origin', 'x-requested-with'],
+    requireHeader: [],
     removeHeaders: ['cookie', 'cookie2']
 });
 
